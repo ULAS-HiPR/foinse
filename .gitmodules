@@ -1,0 +1,6 @@
+[submodule "firmware/lib/comheadan"]
+	path = firmware/lib/comheadan
+	url = git@github.com:ULAS-HiPR/comheadan.git
+[submodule "firmware/lib/braiteoiri"]
+	path = firmware/lib/braiteoiri
+	url = git@github.com:ULAS-HiPR/braiteoiri.git
