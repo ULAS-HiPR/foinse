@@ -1,0 +1,75 @@
+name: SIL Tests & Pico Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "firmware/**"
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "firmware/**"
+      - ".github/workflows/**"
+    
+
+jobs:
+  sil-tests:
+    name: Run SIL Tests (Native)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PlatformIO
+        run: pip install platformio
+
+      - name: Run SIL tests
+        run: |
+          pio test -e sil
+
+      - name: Quality Check SIL
+        run: |
+          pio check -e sil
+
+      - name: Quality Check Pico
+        run: |
+          pio check -e pico
+ 
+  build-pico:
+    name: Build Pico Firmware
+    runs-on: ubuntu-latest
+    needs: sil-tests
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PlatformIO
+        run: pip install platformio
+
+      - name: Build Pico firmware
+        run: |
+          pio run -e pico
+
+      - name: Upload Pico firmware (.uf2)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pico-firmware
+          path: |
+            .pio/build/pico/*.uf2
