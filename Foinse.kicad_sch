@@ -11009,7 +11009,7 @@
 	(text_box ""
 		(exclude_from_sim no)
 		(at 476.25 21.59 0)
-		(size 99.06 260.35)
+		(size -99.06 260.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -11022,7 +11022,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "20acd89b-10d2-4d1f-bc4b-5663c01ffaa3")
 	)
@@ -11683,12 +11683,6 @@
 		(uuid "8e0cb398-8e55-4cc9-a772-471ac9108cae")
 	)
 	(junction
-		(at 534.67 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e48e83b-cd7f-4dfb-a5ec-63cc693405e1")
-	)
-	(junction
 		(at 88.9 370.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11759,12 +11753,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4c024f8-72ae-49ae-852c-5a62edff37b4")
-	)
-	(junction
-		(at 534.67 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a501d8e6-7297-4679-98ec-3e61b9eefde0")
 	)
 	(junction
 		(at 37.8912 267.8158)
@@ -11839,12 +11827,6 @@
 		(uuid "b57cdc25-ee23-4b89-9e21-ec752fae5111")
 	)
 	(junction
-		(at 534.67 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b61fa72f-8e8e-4bd4-9913-5d23db5eae99")
-	)
-	(junction
 		(at 546.1 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11891,12 +11873,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf00ce63-62ec-4582-bc60-898c965b3891")
-	)
-	(junction
-		(at 535.94 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf24f17b-23fa-435f-88d0-f390f089c47a")
 	)
 	(junction
 		(at 184.15 63.5)
@@ -12384,7 +12360,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 59.69) (xy 534.67 59.69)
+			(xy 525.78 59.69) (xy 538.48 59.69)
 		)
 		(stroke
 			(width 0)
@@ -13104,7 +13080,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 124.46) (xy 538.48 124.46)
+			(xy 525.78 124.46) (xy 538.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -13121,16 +13097,6 @@
 			(type default)
 		)
 		(uuid "2c6471c0-356d-4d7a-a862-b1e46c90bbe3")
-	)
-	(wire
-		(pts
-			(xy 527.05 255.27) (xy 535.94 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c8b41e5-b968-4a2a-9441-304cdebcc910")
 	)
 	(wire
 		(pts
@@ -13534,23 +13500,13 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 115.57) (xy 534.67 116.84)
+			(xy 534.67 115.57) (xy 534.67 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ab19390-b2de-4408-91c5-a44462764535")
-	)
-	(wire
-		(pts
-			(xy 535.94 255.27) (xy 539.75 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aeb51c0-7dd0-47f6-b5cb-bf923db97d63")
 	)
 	(wire
 		(pts
@@ -14194,7 +14150,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 50.8) (xy 534.67 52.07)
+			(xy 534.67 50.8) (xy 534.67 59.69)
 		)
 		(stroke
 			(width 0)
@@ -14481,16 +14437,6 @@
 			(type default)
 		)
 		(uuid "632ed123-84d8-48e4-94e1-ffc05464ce8e")
-	)
-	(wire
-		(pts
-			(xy 525.78 124.46) (xy 534.67 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636a9469-3b2b-4af6-a727-048728adecb6")
 	)
 	(wire
 		(pts
@@ -14831,16 +14777,6 @@
 			(type default)
 		)
 		(uuid "727b65f5-38cb-4633-a1d6-1bf791fc6e5e")
-	)
-	(wire
-		(pts
-			(xy 534.67 59.69) (xy 538.48 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a99d14-9fd4-423a-931e-346ae8b531c4")
 	)
 	(wire
 		(pts
@@ -15471,6 +15407,16 @@
 			(type default)
 		)
 		(uuid "9297ecd4-9e2d-4357-a106-a8823770264c")
+	)
+	(wire
+		(pts
+			(xy 527.05 255.27) (xy 539.75 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f32024-4cea-4c2d-aa26-d35229e46ee4")
 	)
 	(wire
 		(pts
@@ -16294,7 +16240,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 181.61) (xy 534.67 182.88)
+			(xy 534.67 181.61) (xy 534.67 190.5)
 		)
 		(stroke
 			(width 0)
@@ -16634,7 +16580,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 190.5) (xy 538.48 190.5)
+			(xy 525.78 190.5) (xy 538.48 190.5)
 		)
 		(stroke
 			(width 0)
@@ -16944,7 +16890,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 246.38) (xy 535.94 247.65)
+			(xy 535.94 246.38) (xy 535.94 255.27)
 		)
 		(stroke
 			(width 0)
@@ -17921,16 +17867,6 @@
 			(type default)
 		)
 		(uuid "fd4c4390-2086-4598-9a82-9cdc8e0576aa")
-	)
-	(wire
-		(pts
-			(xy 525.78 190.5) (xy 534.67 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe00038f-57c4-4069-8d06-066d780a6774")
 	)
 	(wire
 		(pts
@@ -21128,7 +21064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 483.87 138.43 0)
 			(effects
 				(font
@@ -21201,7 +21137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 518.16 74.93 0)
 			(effects
 				(font
@@ -21342,7 +21278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 501.65 200.914 0)
 			(effects
 				(font
@@ -21539,7 +21475,7 @@
 				)
 			)
 		)
-		(property "Value" "6 Ω"
+		(property "Value" "6 kΩ"
 			(at 553.72 55.88 90)
 			(effects
 				(font
@@ -21873,7 +21809,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 Ω"
+		(property "Value" "4.7 kΩ"
 			(at 562.61 243.84 90)
 			(effects
 				(font
@@ -22060,73 +21996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 535.94 251.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "211f260a-296e-4911-91b1-7a86c5bf620d")
-		(property "Reference" "R35"
-			(at 538.226 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-3Ω"
-			(at 533.4 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 537.718 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 535.94 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 535.94 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01538a39-df35-4c2f-a381-cbabc7c6d5b2")
-		)
-		(pin "1"
-			(uuid "5e740319-a616-4656-902e-48a15469f546")
-		)
-		(instances
-			(project "Foinse"
-				(path "/e25e400c-9bc4-4e0b-8f6d-7db79788ea60"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 485.14 265.43 0)
 		(unit 1)
@@ -22144,7 +22013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 485.14 269.24 0)
 			(effects
 				(font
@@ -22771,7 +22640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 501.65 134.874 0)
 			(effects
 				(font
@@ -23207,7 +23076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 518.16 139.7 0)
 			(effects
 				(font
@@ -23330,73 +23199,6 @@
 			(project "Foinse"
 				(path "/e25e400c-9bc4-4e0b-8f6d-7db79788ea60"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 534.67 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38ab0fbe-fe3a-4b05-ac5a-7189c35e340f")
-		(property "Reference" "R7"
-			(at 536.956 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-3Ω"
-			(at 532.13 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 536.448 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 534.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 534.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c40d31d7-0286-4e62-bd92-805eaf825a61")
-		)
-		(pin "1"
-			(uuid "7faab3db-b009-4d2a-adc4-db9153303e89")
-		)
-		(instances
-			(project "Foinse"
-				(path "/e25e400c-9bc4-4e0b-8f6d-7db79788ea60"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -23652,7 +23454,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 Ω"
+		(property "Value" "4.7k Ω"
 			(at 561.34 179.07 90)
 			(effects
 				(font
@@ -24193,7 +23995,7 @@
 				)
 			)
 		)
-		(property "Value" "6 Ω"
+		(property "Value" "6 kΩ"
 			(at 553.72 186.69 90)
 			(effects
 				(font
@@ -24470,7 +24272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 483.87 204.47 0)
 			(effects
 				(font
@@ -24536,7 +24338,7 @@
 				)
 			)
 		)
-		(property "Value" "2 Ω"
+		(property "Value" "2 kΩ"
 			(at 553.72 196.85 90)
 			(effects
 				(font
@@ -24611,7 +24413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 519.43 270.51 0)
 			(effects
 				(font
@@ -24879,7 +24681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 412.75 229.87 0)
 			(effects
 				(font
@@ -25419,7 +25221,7 @@
 				)
 			)
 		)
-		(property "Value" "6 Ω"
+		(property "Value" "6k Ω"
 			(at 553.72 120.65 90)
 			(effects
 				(font
@@ -25562,7 +25364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 508 132.08 0)
 			(effects
 				(font
@@ -25631,7 +25433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 406.4 232.664 0)
 			(effects
 				(font
@@ -26284,7 +26086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 508 67.31 0)
 			(effects
 				(font
@@ -26468,73 +26270,6 @@
 			(project "Foinse"
 				(path "/e25e400c-9bc4-4e0b-8f6d-7db79788ea60"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 534.67 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69bbc5df-2c4b-4977-8bd4-6a4824260add")
-		(property "Reference" "R17"
-			(at 536.956 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-3Ω"
-			(at 532.13 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 536.448 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 534.67 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 534.67 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8667eff2-5455-4669-b1f0-e8aaeb327654")
-		)
-		(pin "1"
-			(uuid "18f66634-1c5f-4838-8f97-affec9f99295")
-		)
-		(instances
-			(project "Foinse"
-				(path "/e25e400c-9bc4-4e0b-8f6d-7db79788ea60"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -28230,7 +27965,7 @@
 				)
 			)
 		)
-		(property "Value" "2 Ω"
+		(property "Value" "2 kΩ"
 			(at 553.72 66.04 90)
 			(effects
 				(font
@@ -28989,7 +28724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 518.16 205.74 0)
 			(effects
 				(font
@@ -29123,7 +28858,7 @@
 				)
 			)
 		)
-		(property "Value" "2 Ω"
+		(property "Value" "2k Ω"
 			(at 553.72 130.81 90)
 			(effects
 				(font
@@ -29574,7 +29309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 509.27 262.89 0)
 			(effects
 				(font
@@ -29643,7 +29378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 483.87 73.66 0)
 			(effects
 				(font
@@ -30225,7 +29960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 501.65 70.104 0)
 			(effects
 				(font
@@ -30418,73 +30153,6 @@
 			(project ""
 				(path "/e25e400c-9bc4-4e0b-8f6d-7db79788ea60"
 					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 534.67 186.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8209b11-9894-42e0-b37e-623130c08e3e")
-		(property "Reference" "R26"
-			(at 536.956 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1-3Ω"
-			(at 532.13 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 536.448 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 534.67 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 534.67 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95b04d37-3a32-450f-8e46-dc1c6efa9743")
-		)
-		(pin "1"
-			(uuid "7e8015df-1124-4f12-bdaf-dd9b856d3089")
-		)
-		(instances
-			(project "Foinse"
-				(path "/e25e400c-9bc4-4e0b-8f6d-7db79788ea60"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -31141,7 +30809,7 @@
 				)
 			)
 		)
-		(property "Value" "2 Ω"
+		(property "Value" "2 kΩ"
 			(at 554.99 261.62 90)
 			(effects
 				(font
@@ -31769,7 +31437,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 Ω"
+		(property "Value" "4.7 kΩ"
 			(at 561.34 48.26 90)
 			(effects
 				(font
@@ -32184,7 +31852,7 @@
 				)
 			)
 		)
-		(property "Value" "6 Ω"
+		(property "Value" "6 kΩ"
 			(at 554.99 251.46 90)
 			(effects
 				(font
@@ -32400,7 +32068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Foinse Footprints:SO4_TOS"
 			(at 508 198.12 0)
 			(effects
 				(font
@@ -32675,7 +32343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PGND"
+		(property "Value" "GND"
 			(at 502.92 265.684 0)
 			(effects
 				(font
@@ -34863,7 +34531,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 Ω"
+		(property "Value" "4.7k Ω"
 			(at 561.34 113.03 90)
 			(effects
 				(font
