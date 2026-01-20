@@ -11009,7 +11009,7 @@
 	(text_box ""
 		(exclude_from_sim no)
 		(at 476.25 21.59 0)
-		(size -99.06 260.35)
+		(size 99.06 260.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
