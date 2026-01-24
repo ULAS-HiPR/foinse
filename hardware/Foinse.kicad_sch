@@ -9922,6 +9922,16 @@
 		)
 		(uuid "4b94bcf0-9596-4da4-baee-977f5d664e77")
 	)
+	(label "???"
+		(at 276.86 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70f35ab6-d84e-49dc-9b17-9e5d1b69d3aa")
+	)
 	(label "ADP +"
 		(at 275.59 167.64 180)
 		(effects
@@ -10118,7 +10128,7 @@
 			)
 		)
 	)
-	(global_label "5v_SERVO"
+	(global_label "5VSERVO_BS"
 		(shape input)
 		(at 287.02 113.03 0)
 		(fields_autoplaced yes)
@@ -10130,7 +10140,7 @@
 		)
 		(uuid "3661e88b-d384-4e0c-a181-e2682bd57359")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.1975 113.03 0)
+			(at 301.798 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10294,7 +10304,7 @@
 			)
 		)
 	)
-	(global_label "VBAT_BS"
+	(global_label "VBAT"
 		(shape input)
 		(at 304.8 162.56 180)
 		(fields_autoplaced yes)
@@ -10306,7 +10316,7 @@
 		)
 		(uuid "761af622-fde0-4496-a2e6-a9148b7da751")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.9529 162.56 0)
+			(at 297.4 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
