@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/Lib/XT30PW-M.kicad_sym")(options "")(descr ""))
   (lib (name "WE-MAPI_6030")(type "KiCad")(uri "${KIPRJMOD}/Lib/WE-MAPI_6030.kicad_sym")(options "")(descr ""))
+  (lib (name "ACS71240LLCBTR020U5")(type "KiCad")(uri "${KIPRJMOD}/Lib/ACS71240LLCBTR020U5.kicad_sym")(options "")(descr ""))
+  (lib (name "ACS71240KEXBLT")(type "KiCad")(uri "${KIPRJMOD}/Lib/ACS71240KEXBLT.kicad_sym")(options "")(descr ""))
+  (lib (name "SR1020")(type "KiCad")(uri "${KIPRJMOD}/Lib/SR1020.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-063AH")(type "KiCad")(uri "${KIPRJMOD}/Lib/PJ-063AH.kicad_sym")(options "")(descr ""))
 )
