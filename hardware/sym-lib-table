@@ -6,4 +6,5 @@
   (lib (name "ACS71240KEXBLT")(type "KiCad")(uri "${KIPRJMOD}/Lib/ACS71240KEXBLT.kicad_sym")(options "")(descr ""))
   (lib (name "SR1020")(type "KiCad")(uri "${KIPRJMOD}/Lib/SR1020.kicad_sym")(options "")(descr ""))
   (lib (name "PJ-063AH")(type "KiCad")(uri "${KIPRJMOD}/Lib/PJ-063AH.kicad_sym")(options "")(descr ""))
+  (lib (name "STDCRA38M")(type "KiCad")(uri "${KIPRJMOD}/Lib/STDCRA38M.kicad_sym")(options "")(descr ""))
 )
