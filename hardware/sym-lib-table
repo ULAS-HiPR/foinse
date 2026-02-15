@@ -13,4 +13,5 @@
   (lib (name "39-29-1048")(type "KiCad")(uri "${KIPRJMOD}/Lib/39-29-1048.kicad_sym")(options "")(descr ""))
   (lib (name "MPM3650CGQW-P")(type "KiCad")(uri "${KIPRJMOD}/Lib/MPM3650CGQW-P.kicad_sym")(options "")(descr ""))
   (lib (name "LT3045EDD_PBF")(type "KiCad")(uri "${KIPRJMOD}/Lib/LT3045EDD_PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV75533PDBVR")(type "KiCad")(uri "${KIPRJMOD}/Lib/TLV75533PDBVR.kicad_sym")(options "")(descr ""))
 )
