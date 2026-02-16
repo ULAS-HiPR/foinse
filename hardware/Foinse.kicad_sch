@@ -7428,6 +7428,10 @@
 		(uuid "0047e55b-d239-4c3b-819a-b9d33f19f682")
 	)
 	(no_connect
+		(at 179.07 187.96)
+		(uuid "0dd5c992-476a-453c-bc13-1d055b204124")
+	)
+	(no_connect
 		(at 179.07 175.26)
 		(uuid "0ee2f16f-7701-48cf-b9a1-24d2b3c92fbd")
 	)
@@ -7486,6 +7490,10 @@
 	(no_connect
 		(at 384.81 242.57)
 		(uuid "797d087b-7dd2-4bad-8206-31a269b35218")
+	)
+	(no_connect
+		(at 179.07 185.42)
+		(uuid "7a4c9929-20ad-4324-b97e-9f08d7669777")
 	)
 	(no_connect
 		(at 386.08 269.24)
@@ -8905,16 +8913,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 185.42) (xy 179.07 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e857332-6425-48cd-9fa6-ff453bd74c16")
-	)
-	(wire
-		(pts
 			(xy 224.79 113.03) (xy 224.79 115.57)
 		)
 		(stroke
@@ -10035,16 +10033,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 187.96) (xy 179.07 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7cf80ee-e6a5-4a6a-8612-e71a7a82b6e7")
-	)
-	(wire
-		(pts
 			(xy 151.13 102.87) (xy 165.1 102.87)
 		)
 		(stroke
@@ -10909,28 +10897,6 @@
 			)
 		)
 	)
-	(global_label "SERVO_CURRENT_CS"
-		(shape input)
-		(at 172.72 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b22affc0-cfac-4a5d-8e4b-288873d2f7d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.6849 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_-"
 		(shape input)
 		(at 380.093 185.9173 180)
@@ -11063,7 +11029,7 @@
 			)
 		)
 	)
-	(global_label "5V_LOGIC"
+	(global_label "5VLOGIC"
 		(shape input)
 		(at 345.44 312.42 180)
 		(fields_autoplaced yes)
@@ -11075,7 +11041,7 @@
 		)
 		(uuid "d4a6faee-360f-4fc6-8a7d-ca4427b65900")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.6857 312.42 0)
+			(at 334.6533 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,28 +11091,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BATTERY_CURRENT_CS"
-		(shape input)
-		(at 172.72 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e35a00e1-9b14-44cc-bc7f-970e0bd7e39c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.9311 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
