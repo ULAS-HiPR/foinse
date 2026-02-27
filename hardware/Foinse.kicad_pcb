@@ -162,9 +162,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fabrication/")
 		)
 	)
 	(net 0 "")
@@ -62176,6 +62176,50 @@
 		(layer "B.Cu")
 		(net 3)
 		(uuid "2e17995f-fb66-4535-ac89-80b32ca8873b")
+	)
+	(gr_circle
+		(center 130.468911 63.102928)
+		(end 127.468911 63.102928)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "5110925a-a257-44f0-a7ea-0a320088dc7b")
+	)
+	(gr_circle
+		(center 175.513553 97.044054)
+		(end 172.513553 97.044054)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "512b82d0-6951-4ea9-9141-ee65c2a856fd")
+	)
+	(gr_circle
+		(center 130.468911 97.044054)
+		(end 127.468911 97.044054)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "bfa22d7a-71d9-43c6-a212-ae2c108d0d17")
+	)
+	(gr_circle
+		(center 175.513553 63.102928)
+		(end 172.513553 63.102928)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "ccf8683f-0037-44a0-a6c8-14d80bb38c99")
 	)
 	(gr_poly
 		(pts
