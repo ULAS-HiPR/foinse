@@ -6651,6 +6651,16 @@
 		)
 		(uuid "97616bf8-d1fb-4455-87ff-0dc3475405dc")
 	)
+	(text "this is actually 7.4v now, as of 21-03-2026 @10:17pm"
+		(exclude_from_sim no)
+		(at 290.576 262.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4f9961d-def0-4b6e-80d9-533517208456")
+	)
 	(text "interboard connector"
 		(exclude_from_sim no)
 		(at 274.32 141.732 0)
@@ -7665,16 +7675,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 91.44) (xy 200.66 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ae47eb5-7d29-4979-9d82-ace859dc4816")
-	)
-	(wire
-		(pts
 			(xy 254 172.72) (xy 255.27 172.72)
 		)
 		(stroke
@@ -8045,7 +8045,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 91.44) (xy 200.66 91.44)
+			(xy 210.82 91.44) (xy 201.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9075,7 +9075,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 92.71) (xy 201.93 114.3)
+			(xy 201.93 91.44) (xy 201.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9662,16 +9662,6 @@
 			(type default)
 		)
 		(uuid "ca28429f-d75a-417f-8b6c-11fe0e0d479a")
-	)
-	(wire
-		(pts
-			(xy 200.66 92.71) (xy 201.93 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca77e433-eb75-44e0-935d-e1bf472f1f6b")
 	)
 	(wire
 		(pts
@@ -11999,7 +11989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XTAL_NX3225GD-8MHZ-STD-CRA-3_NDK"
+		(property "Footprint" "footprints:XTAL_NX3225GD-8MHZ-STD-CRA-3_NDK"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -12068,7 +12058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO252-3-313_INF"
+		(property "Footprint" "footprints:PG-TO252-3-313_INF"
 			(at 314.96 148.59 0)
 			(effects
 				(font
@@ -12478,7 +12468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XTAL_NX3225GD-8MHZ-STD-CRA-3_NDK"
+		(property "Footprint" "footprints:XTAL_NX3225GD-8MHZ-STD-CRA-3_NDK"
 			(at 161.29 138.43 0)
 			(effects
 				(font
@@ -12549,7 +12539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 314.6552 248.92 0)
 			(effects
 				(font
@@ -12822,7 +12812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 285.4452 325.12 0)
 			(effects
 				(font
@@ -13024,7 +13014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 297.18 236.22 0)
 			(effects
 				(font
@@ -14118,7 +14108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 289.2552 248.92 0)
 			(effects
 				(font
@@ -14188,7 +14178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 375.92 317.5 0)
 			(effects
 				(font
@@ -14365,7 +14355,7 @@
 				)
 			)
 		)
-		(property "Value" "73.2 Ω"
+		(property "Value" "113 Ω"
 			(at 254.762 255.27 90)
 			(effects
 				(font
@@ -14442,7 +14432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 298.1452 325.12 0)
 			(effects
 				(font
@@ -14577,7 +14567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.9752 325.12 0)
 			(effects
 				(font
@@ -14645,7 +14635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN12_ACS711KEXLT-31AB-T_ALM"
+		(property "Footprint" "footprints:QFN12_ACS711KEXLT-31AB-T_ALM"
 			(at 344.17 232.41 0)
 			(effects
 				(font
@@ -14949,7 +14939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MOLEX_39-29-1048"
+		(property "Footprint" "footprints:MOLEX_39-29-1048"
 			(at 331.47 175.26 0)
 			(effects
 				(font
@@ -15360,7 +15350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.6952 248.92 0)
 			(effects
 				(font
@@ -15900,7 +15890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 375.92 327.66 0)
 			(effects
 				(font
@@ -16087,7 +16077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 223.52 123.19 0)
 			(effects
 				(font
@@ -16351,7 +16341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MOLEX_5023860570"
+		(property "Footprint" "footprints:MOLEX_5023860570"
 			(at 326.39 123.19 0)
 			(effects
 				(font
@@ -18100,7 +18090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 301.9552 248.92 0)
 			(effects
 				(font
@@ -18317,7 +18307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 424.18 175.26 0)
 			(effects
 				(font
@@ -19145,7 +19135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN12_ACS711KEXLT-31AB-T_ALM"
+		(property "Footprint" "footprints:QFN12_ACS711KEXLT-31AB-T_ALM"
 			(at 345.44 264.16 0)
 			(effects
 				(font
@@ -19585,7 +19575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 425.813 189.4225 0)
 			(effects
 				(font
@@ -19721,7 +19711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 302.26 312.42 0)
 			(effects
 				(font
@@ -20195,7 +20185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 194.6148 99.06 0)
 			(effects
 				(font
@@ -20334,7 +20324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 344.17 250.19 0)
 			(effects
 				(font
@@ -20598,7 +20588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 373.4382 170.6773 0)
 			(effects
 				(font
@@ -20801,7 +20791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 263.8552 248.92 0)
 			(effects
 				(font
@@ -20870,7 +20860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 248.92 0)
 			(effects
 				(font
@@ -20939,7 +20929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 345.44 281.94 0)
 			(effects
 				(font
@@ -21612,7 +21602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 223.52 135.89 0)
 			(effects
 				(font
@@ -21876,7 +21866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 276.5552 248.92 0)
 			(effects
 				(font
@@ -22014,7 +22004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HARWIN_S2761-46R"
+		(property "Footprint" "footprints:HARWIN_S2761-46R"
 			(at 422.91 201.93 0)
 			(effects
 				(font
@@ -22210,7 +22200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO252-3-313_INF"
+		(property "Footprint" "footprints:PG-TO252-3-313_INF"
 			(at 280.67 190.5 0)
 			(effects
 				(font
