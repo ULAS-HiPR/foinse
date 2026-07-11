@@ -41,7 +41,7 @@ Ogma Console can:
 - Current conversion uses the ACS71240KEXBLT-010B3 nominal 1.65 V zero-current point and 132 mV/A sensitivity. Bench calibration can refine offset/gain later.
 - Sense1 is battery-to-board current. Sense2 is servo 5 V rail current.
 - ADC validity flags retain last-good readings instead of publishing false current on conversion timeout.
-- Hardware watchdog reset status is reported in `foinse_status` version 5.
+- Hardware watchdog starts immediately after clock setup; reset status is reported in `foinse_status` version 5.
 - CAN IDs and payload structs come from shared `comheadan`.
 
 ## Dependency Lock

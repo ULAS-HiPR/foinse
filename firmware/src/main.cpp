@@ -434,13 +434,13 @@ int main()
 
     HAL_Init();
     SystemClock_Config();
-    MX_GPIO_Init();
-    MX_ADC1_Init();
-    can_ready = MX_CAN_Init() && HAL_CAN_Start(&hcan) == HAL_OK;
     foinse_status.watchdog_init_ok = init_watchdog() ? 1U : 0U;
     if (foinse_status.watchdog_init_ok == 0U) {
         Error_Handler();
     }
+    MX_GPIO_Init();
+    MX_ADC1_Init();
+    can_ready = MX_CAN_Init() && HAL_CAN_Start(&hcan) == HAL_OK;
 
     last_heartbeat_ms = HAL_GetTick();
     last_power_ms = last_heartbeat_ms;
